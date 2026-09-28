@@ -1,0 +1,1307 @@
+{
+  "3D:RF:09:7F::": {
+    "Name": "R1",
+    "Status": "online",
+    "Protocolos": ["OSPF", "ST"],
+    "VLANs": {
+      "VL1": {
+        "Ports": [],
+        "Plicies": [],
+        "ET": true,
+        "IP": "192.168.10.68",
+        "SSH": true  
+      }
+    }
+  },
+  "02:BB:22:22::": {
+    "Name": "R2",
+    "Protocolos": ["RIP", "BGP"],
+    "VLANs": {
+      "VL2": {
+        "Ports": [1, 2],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "10.0.0.2",
+        "SSH": false
+      }
+    }
+  },
+  "03:CC:33:33::": {
+    "Name": "R3",
+    "Protocolos": ["OSPF"],
+    "VLANs": {
+      "VL3": {
+        "Ports": [3, 4, 5],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "172.16.0.3",
+        "SSH": true
+      }
+    }
+  },
+  "04:DD:44:44::": {
+    "Name": "R4",
+    "Protocolos": ["BGP", "ST"],
+    "VLANs": {
+      "VL4": {
+        "Ports": [],
+        "Plicies": [],
+        "ET": true,
+        "IP": "192.168.20.4",
+        "SSH": false
+      }
+    }
+  },
+  "05:EE:55:55::": {
+    "Name": "R5",
+    "Protocolos": ["OSPF", "BGP"],
+    "VLANs": {
+      "VL5": {
+        "Ports": [1, 2, 3],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.30.5",
+        "SSH": true
+      }
+    }
+  },
+  "06:FF:66:66::": {
+    "Name": "R6",
+    "Protocolos": ["RIP"],
+    "VLANs": {
+      "VL6": {
+        "Ports": [],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.1.6",
+        "SSH": false
+      }
+    }
+  },
+  "07:AA:77:77::": {
+    "Name": "R7",
+    "Protocolos": ["ST", "OSPF"],
+    "VLANs": {
+      "VL7": {
+        "Ports": [4, 5],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.2.7",
+        "SSH": true
+      }
+    }
+  },
+  "08:BB:88:88::": {
+    "Name": "R8",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL8": {
+        "Ports": [6],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "192.168.40.8",
+        "SSH": false
+      }
+    }
+  },
+  "09:CC:99:99::": {
+    "Name": "R9",
+    "Protocolos": ["RIP", "ST"],
+    "VLANs": {
+      "VL9": {
+        "Ports": [7, 8, 9],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "10.0.2.9",
+        "SSH": true
+      }
+    }
+  },
+  "10:DD:AA:AA::": {
+    "Name": "R10",
+    "Protocolos": ["OSPF", "BGP"],
+    "VLANs": {
+      "VL10": {
+        "Ports": [10, 11],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "172.16.3.10",
+        "SSH": false
+      }
+    }
+  },
+  "11:EE:BB:BB::": {
+    "Name": "R11",
+    "Protocolos": ["ST"],
+    "VLANs": {
+      "VL11": {
+        "Ports": [12],
+        "Plicies": [],
+        "ET": true,
+        "IP": "192.168.50.11",
+        "SSH": true
+      }
+    }
+  },
+  "12:FF:CC:CC::": {
+    "Name": "R12",
+    "Protocolos": ["RIP", "OSPF"],
+    "VLANs": {
+      "VL12": {
+        "Ports": [13, 14],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "10.0.3.12",
+        "SSH": false
+      }
+    }
+  },
+  "13:AA:DD:DD::": {
+    "Name": "R13",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL13": {
+        "Ports": [15],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "172.16.4.13",
+        "SSH": true
+      }
+    }
+  },
+  "14:BB:EE:EE::": {
+    "Name": "R14",
+    "Protocolos": ["OSPF", "ST"],
+    "VLANs": {
+      "VL14": {
+        "Ports": [],
+        "Plicies": [],
+        "ET": true,
+        "IP": "192.168.60.14",
+        "SSH": false
+      }
+    }
+  },
+  "15:CC:FF:FF::": {
+    "Name": "R15",
+    "Protocolos": ["RIP", "BGP"],
+    "VLANs": {
+      "VL15": {
+        "Ports": [16, 17],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "10.0.4.15",
+        "SSH": true
+      }
+    }
+  },
+  "16:DD:AA:11::": {
+    "Name": "R16",
+    "Protocolos": ["OSPF"],
+    "VLANs": {
+      "VL16": {
+        "Ports": [18],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "172.16.5.16",
+        "SSH": false
+      }
+    }
+  },
+  "17:EE:BB:22::": {
+    "Name": "R17",
+    "Protocolos": ["ST", "BGP"],
+    "VLANs": {
+      "VL17": {
+        "Ports": [19, 20],
+        "Plicies": [],
+        "ET": true,
+        "IP": "192.168.70.17",
+        "SSH": true
+      }
+    }
+  },
+  "18:FF:CC:33::": {
+    "Name": "R18",
+    "Protocolos": ["RIP"],
+    "VLANs": {
+      "VL18": {
+        "Ports": [21],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "10.0.5.18",
+        "SSH": false
+      }
+    }
+  },
+  "19:AA:DD:44::": {
+    "Name": "R19",
+    "Protocolos": ["OSPF", "ST"],
+    "VLANs": {
+      "VL19": {
+        "Ports": [22, 23],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "172.16.6.19",
+        "SSH": true
+      }
+    }
+  },
+  "20:BB:EE:55::": {
+    "Name": "R20",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL20": {
+        "Ports": [],
+        "Plicies": [],
+        "ET": true,
+        "IP": "192.168.80.20",
+        "SSH": false
+      }
+    }
+  },
+  "21:CC:FF:66::": {
+    "Name": "R21",
+    "Protocolos": ["OSPF", "RIP"],
+    "VLANs": {
+      "VL21": {
+        "Ports": [24],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.90.21",
+        "SSH": true
+      }
+    }
+  },
+  "22:DD:AA:77::": {
+    "Name": "R22",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL22": {
+        "Ports": [25, 26],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.6.22",
+        "SSH": false
+      }
+    }
+  },
+  "23:EE:BB:88::": {
+    "Name": "R23",
+    "Protocolos": ["ST", "OSPF"],
+    "VLANs": {
+      "VL23": {
+        "Ports": [],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.7.23",
+        "SSH": true
+      }
+    }
+  },
+  "24:FF:CC:99::": {
+    "Name": "R24",
+    "Protocolos": ["RIP", "BGP"],
+    "VLANs": {
+      "VL24": {
+        "Ports": [27],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "192.168.100.24",
+        "SSH": false
+      }
+    }
+  },
+  "25:AA:DD:AA::": {
+    "Name": "R25",
+    "Protocolos": ["OSPF"],
+    "VLANs": {
+      "VL25": {
+        "Ports": [28, 29],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "10.0.7.25",
+        "SSH": true
+      }
+    }
+  },
+  "26:BB:EE:BB::": {
+    "Name": "R26",
+    "Protocolos": ["ST"],
+    "VLANs": {
+      "VL26": {
+        "Ports": [30],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.8.26",
+        "SSH": false
+      }
+    }
+  },
+  "27:CC:FF:CC::": {
+    "Name": "R27",
+    "Protocolos": ["BGP", "OSPF"],
+    "VLANs": {
+      "VL27": {
+        "Ports": [31, 32],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.110.27",
+        "SSH": true
+      }
+    }
+  },
+  "28:DD:AA:DD::": {
+    "Name": "R28",
+    "Protocolos": ["RIP"],
+    "VLANs": {
+      "VL28": {
+        "Ports": [],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.8.28",
+        "SSH": false
+      }
+    }
+  },
+  "29:EE:BB:EE::": {
+    "Name": "R29",
+    "Protocolos": ["ST", "BGP"],
+    "VLANs": {
+      "VL29": {
+        "Ports": [33],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.9.29",
+        "SSH": true
+      }
+    }
+  },
+  "30:FF:CC:FF::": {
+    "Name": "R30",
+    "Protocolos": ["OSPF", "RIP"],
+    "VLANs": {
+      "VL30": {
+        "Ports": [34, 35],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "192.168.120.30",
+        "SSH": false
+      }
+    }
+  },
+  "31:AA:11:22::": {
+    "Name": "R31",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL31": {
+        "Ports": [36],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "10.0.9.31",
+        "SSH": true
+      }
+    }
+  },
+  "32:BB:22:33::": {
+    "Name": "R32",
+    "Protocolos": ["OSPF", "ST"],
+    "VLANs": {
+      "VL32": {
+        "Ports": [37, 38],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.10.32",
+        "SSH": false
+      }
+    }
+  },
+  "33:CC:33:44::": {
+    "Name": "R33",
+    "Protocolos": ["RIP", "BGP"],
+    "VLANs": {
+      "VL33": {
+        "Ports": [39],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.130.33",
+        "SSH": true
+      }
+    }
+  },
+  "34:DD:44:55::": {
+    "Name": "R34",
+    "Protocolos": ["OSPF"],
+    "VLANs": {
+      "VL34": {
+        "Ports": [],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.10.34",
+        "SSH": false
+      }
+    }
+  },
+  "35:EE:55:66::": {
+    "Name": "R35",
+    "Protocolos": ["ST", "BGP"],
+    "VLANs": {
+      "VL35": {
+        "Ports": [40, 41],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.11.35",
+        "SSH": true
+      }
+    }
+  },
+  "36:FF:66:77::": {
+    "Name": "R36",
+    "Protocolos": ["RIP"],
+    "VLANs": {
+      "VL36": {
+        "Ports": [42],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "192.168.140.36",
+        "SSH": false
+      }
+    }
+  },
+  "37:AA:77:88::": {
+    "Name": "R37",
+    "Protocolos": ["OSPF", "ST"],
+    "VLANs": {
+      "VL37": {
+        "Ports": [43, 44],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "10.0.11.37",
+        "SSH": true
+      }
+    }
+  },
+  "38:BB:88:99::": {
+    "Name": "R38",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL38": {
+        "Ports": [45],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.12.38",
+        "SSH": false
+      }
+    }
+  },
+  "39:CC:99:AA::": {
+    "Name": "R39",
+    "Protocolos": ["OSPF", "RIP"],
+    "VLANs": {
+      "VL39": {
+        "Ports": [46, 47],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.150.39",
+        "SSH": true
+      }
+    }
+  },
+  "40:DD:AA:BB::": {
+    "Name": "R40",
+    "Protocolos": ["ST"],
+    "VLANs": {
+      "VL40": {
+        "Ports": [],
+        "Plicies": [],
+        "ET": false,
+        "IP": "10.0.12.40",
+        "SSH": false
+      }
+    }
+  },
+  "41:EE:BB:CC::": {
+    "Name": "R41",
+    "Protocolos": ["OSPF", "BGP"],
+    "VLANs": {
+      "VL41": {
+        "Ports": [48],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.160.41",
+        "SSH": true
+      }
+    }
+  },
+  "42:FF:CC:DD::": {
+    "Name": "R42",
+    "Protocolos": ["RIP"],
+    "VLANs": {
+      "VL42": {
+        "Ports": [49, 50],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.13.42",
+        "SSH": false
+      }
+    }
+  },
+  "43:AA:DD:EE::": {
+    "Name": "R43",
+    "Protocolos": ["ST", "OSPF"],
+    "VLANs": {
+      "VL43": {
+        "Ports": [],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.13.43",
+        "SSH": true
+      }
+    }
+  },
+  "44:BB:EE:FF::": {
+    "Name": "R44",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL44": {
+        "Ports": [51],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "192.168.170.44",
+        "SSH": false
+      }
+    }
+  },
+  "45:CC:FF:11::": {
+    "Name": "R45",
+    "Protocolos": ["OSPF", "RIP"],
+    "VLANs": {
+      "VL45": {
+        "Ports": [52, 53],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "10.0.14.45",
+        "SSH": true
+      }
+    }
+  },
+  "46:DD:AA:22::": {
+    "Name": "R46",
+    "Protocolos": ["ST"],
+    "VLANs": {
+      "VL46": {
+        "Ports": [54],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.14.46",
+        "SSH": false
+      }
+    }
+  },
+  "47:EE:BB:33::": {
+    "Name": "R47",
+    "Protocolos": ["BGP", "OSPF"],
+    "VLANs": {
+      "VL47": {
+        "Ports": [55, 56],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.180.47",
+        "SSH": true
+      }
+    }
+  },
+  "48:FF:CC:44::": {
+    "Name": "R48",
+    "Protocolos": ["RIP"],
+    "VLANs": {
+      "VL48": {
+        "Ports": [],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.15.48",
+        "SSH": false
+      }
+    }
+  },
+  "49:AA:DD:55::": {
+    "Name": "R49",
+    "Protocolos": ["ST", "BGP"],
+    "VLANs": {
+      "VL49": {
+        "Ports": [57],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.15.49",
+        "SSH": true
+      }
+    }
+  },
+  "50:BB:EE:66::": {
+    "Name": "R50",
+    "Protocolos": ["OSPF", "RIP"],
+    "VLANs": {
+      "VL50": {
+        "Ports": [58, 59],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "192.168.190.50",
+        "SSH": false
+      }
+    }
+  },
+  "51:CC:FF:77::": {
+    "Name": "R51",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL51": {
+        "Ports": [60],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "10.0.16.51",
+        "SSH": true
+      }
+    }
+  },
+  "52:DD:AA:88::": {
+    "Name": "R52",
+    "Protocolos": ["OSPF", "ST"],
+    "VLANs": {
+      "VL52": {
+        "Ports": [61, 62],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.16.52",
+        "SSH": false
+      }
+    }
+  },
+  "53:EE:BB:99::": {
+    "Name": "R53",
+    "Protocolos": ["RIP", "BGP"],
+    "VLANs": {
+      "VL53": {
+        "Ports": [63],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.200.53",
+        "SSH": true
+      }
+    }
+  },
+  "54:FF:CC:AA::": {
+    "Name": "R54",
+    "Protocolos": ["OSPF"],
+    "VLANs": {
+      "VL54": {
+        "Ports": [],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.17.54",
+        "SSH": false
+      }
+    }
+  },
+  "55:AA:DD:BB::": {
+    "Name": "R55",
+    "Protocolos": ["ST", "BGP"],
+    "VLANs": {
+      "VL55": {
+        "Ports": [64, 65],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.17.55",
+        "SSH": true
+      }
+    }
+  },
+  "56:BB:EE:CC::": {
+    "Name": "R56",
+    "Protocolos": ["RIP"],
+    "VLANs": {
+      "VL56": {
+        "Ports": [66],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "192.168.210.56",
+        "SSH": false
+      }
+    }
+  },
+  "57:CC:FF:DD::": {
+    "Name": "R57",
+    "Protocolos": ["OSPF", "ST"],
+    "VLANs": {
+      "VL57": {
+        "Ports": [67, 68],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "10.0.18.57",
+        "SSH": true
+      }
+    }
+  },
+  "58:DD:AA:EE::": {
+    "Name": "R58",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL58": {
+        "Ports": [69],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.18.58",
+        "SSH": false
+      }
+    }
+  },
+  "59:EE:BB:FF::": {
+    "Name": "R59",
+    "Protocolos": ["OSPF", "RIP"],
+    "VLANs": {
+      "VL59": {
+        "Ports": [70, 71],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.220.59",
+        "SSH": true
+      }
+    }
+  },
+  "60:FF:CC:11::": {
+    "Name": "R60",
+    "Protocolos": ["ST"],
+    "VLANs": {
+      "VL60": {
+        "Ports": [],
+        "Plicies": [],
+        "ET": false,
+        "IP": "10.0.19.60",
+        "SSH": false
+      }
+    }
+  },
+  "61:AA:11:33::": {
+    "Name": "R61",
+    "Protocolos": ["OSPF", "ST"],
+    "VLANs": {
+      "VL61": {
+        "Ports": [72],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.230.61",
+        "SSH": true
+      }
+    }
+  },
+  "62:BB:22:44::": {
+    "Name": "R62",
+    "Protocolos": ["RIP", "BGP"],
+    "VLANs": {
+      "VL62": {
+        "Ports": [73, 74],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.20.62",
+        "SSH": false
+      }
+    }
+  },
+  "63:CC:33:55::": {
+    "Name": "R63",
+    "Protocolos": ["OSPF"],
+    "VLANs": {
+      "VL63": {
+        "Ports": [75],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.19.63",
+        "SSH": true
+      }
+    }
+  },
+  "64:DD:44:66::": {
+    "Name": "R64",
+    "Protocolos": ["BGP", "ST"],
+    "VLANs": {
+      "VL64": {
+        "Ports": [76, 77],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "192.168.240.64",
+        "SSH": false
+      }
+    }
+  },
+  "65:EE:55:77::": {
+    "Name": "R65",
+    "Protocolos": ["OSPF", "BGP"],
+    "VLANs": {
+      "VL65": {
+        "Ports": [78],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "10.0.21.65",
+        "SSH": true
+      }
+    }
+  },
+  "66:FF:66:88::": {
+    "Name": "R66",
+    "Protocolos": ["RIP"],
+    "VLANs": {
+      "VL66": {
+        "Ports": [79, 80],
+        "Plicies": [],
+        "ET": false,
+        "IP": "172.16.20.66",
+        "SSH": false
+      }
+    }
+  },
+  "67:AA:77:99::": {
+    "Name": "R67",
+    "Protocolos": ["ST", "OSPF"],
+    "VLANs": {
+      "VL67": {
+        "Ports": [81],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.250.67",
+        "SSH": true
+      }
+    }
+  },
+  "68:BB:88:AA::": {
+    "Name": "R68",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL68": {
+        "Ports": [82, 83],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.22.68",
+        "SSH": false
+      }
+    }
+  },
+  "69:CC:99:BB::": {
+    "Name": "R69",
+    "Protocolos": ["RIP", "ST"],
+    "VLANs": {
+      "VL69": {
+        "Ports": [84],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.21.69",
+        "SSH": true
+      }
+    }
+  },
+  "70:DD:AA:CC::": {
+    "Name": "R70",
+    "Protocolos": ["OSPF", "BGP"],
+    "VLANs": {
+      "VL70": {
+        "Ports": [85, 86],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "192.168.1.70",
+        "SSH": false
+      }
+    }
+  },
+  "71:EE:BB:DD::": {
+    "Name": "R71",
+    "Protocolos": ["ST"],
+    "VLANs": {
+      "VL71": {
+        "Ports": [87],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "10.0.23.71",
+        "SSH": true
+      }
+    }
+  },
+  "72:FF:CC:EE::": {
+    "Name": "R72",
+    "Protocolos": ["RIP", "OSPF"],
+    "VLANs": {
+      "VL72": {
+        "Ports": [88, 89],
+        "Plicies": [],
+        "ET": false,
+        "IP": "172.16.22.72",
+        "SSH": false
+      }
+    }
+  },
+  "73:AA:DD:FF::": {
+    "Name": "R73",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL73": {
+        "Ports": [90],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.2.73",
+        "SSH": true
+      }
+    }
+  },
+  "74:BB:EE:11::": {
+    "Name": "R74",
+    "Protocolos": ["OSPF", "ST"],
+    "VLANs": {
+      "VL74": {
+        "Ports": [91, 92],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.24.74",
+        "SSH": false
+      }
+    }
+  },
+  "75:CC:FF:22::": {
+    "Name": "R75",
+    "Protocolos": ["RIP", "BGP"],
+    "VLANs": {
+      "VL75": {
+        "Ports": [93],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.23.75",
+        "SSH": true
+      }
+    }
+  },
+  "76:DD:AA:33::": {
+    "Name": "R76",
+    "Protocolos": ["OSPF"],
+    "VLANs": {
+      "VL76": {
+        "Ports": [94, 95],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "192.168.3.76",
+        "SSH": false
+      }
+    }
+  },
+  "77:EE:BB:44::": {
+    "Name": "R77",
+    "Protocolos": ["ST", "BGP"],
+    "VLANs": {
+      "VL77": {
+        "Ports": [96],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "10.0.25.77",
+        "SSH": true
+      }
+    }
+  },
+  "78:FF:CC:55::": {
+    "Name": "R78",
+    "Protocolos": ["RIP"],
+    "VLANs": {
+      "VL78": {
+        "Ports": [97, 98],
+        "Plicies": [],
+        "ET": false,
+        "IP": "172.16.24.78",
+        "SSH": false
+      }
+    }
+  },
+  "79:AA:DD:66::": {
+    "Name": "R79",
+    "Protocolos": ["OSPF", "ST"],
+    "VLANs": {
+      "VL79": {
+        "Ports": [99],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.4.79",
+        "SSH": true
+      }
+    }
+  },
+  "80:BB:EE:77::": {
+    "Name": "R80",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL80": {
+        "Ports": [100, 101],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.26.80",
+        "SSH": false
+      }
+    }
+  },
+  "81:CC:88:11::": {
+    "Name": "R81",
+    "Protocolos": ["OSPF", "RIP"],
+    "VLANs": {
+      "VL81": {
+        "Ports": [102],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.5.81",
+        "SSH": true
+      }
+    }
+  },
+  "82:DD:99:22::": {
+    "Name": "R82",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL82": {
+        "Ports": [103, 104],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.27.82",
+        "SSH": false
+      }
+    }
+  },
+  "83:EE:AA:33::": {
+    "Name": "R83",
+    "Protocolos": ["ST", "OSPF"],
+    "VLANs": {
+      "VL83": {
+        "Ports": [],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.25.83",
+        "SSH": true
+      }
+    }
+  },
+  "84:FF:BB:44::": {
+    "Name": "R84",
+    "Protocolos": ["RIP", "BGP"],
+    "VLANs": {
+      "VL84": {
+        "Ports": [105],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "192.168.6.84",
+        "SSH": false
+      }
+    }
+  },
+  "85:AA:CC:55::": {
+    "Name": "R85",
+    "Protocolos": ["OSPF"],
+    "VLANs": {
+      "VL85": {
+        "Ports": [106, 107],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "10.0.28.85",
+        "SSH": true
+      }
+    }
+  },
+  "86:BB:DD:66::": {
+    "Name": "R86",
+    "Protocolos": ["ST"],
+    "VLANs": {
+      "VL86": {
+        "Ports": [108],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.26.86",
+        "SSH": false
+      }
+    }
+  },
+  "87:CC:EE:77::": {
+    "Name": "R87",
+    "Protocolos": ["BGP", "OSPF"],
+    "VLANs": {
+      "VL87": {
+        "Ports": [109, 110],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.7.87",
+        "SSH": true
+      }
+    }
+  },
+  "88:DD:FF:88::": {
+    "Name": "R88",
+    "Protocolos": ["RIP"],
+    "VLANs": {
+      "VL88": {
+        "Ports": [],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.29.88",
+        "SSH": false
+      }
+    }
+  },
+  "89:EE:11:99::": {
+    "Name": "R89",
+    "Protocolos": ["ST", "BGP"],
+    "VLANs": {
+      "VL89": {
+        "Ports": [111],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.27.89",
+        "SSH": true
+      }
+    }
+  },
+  "90:FF:22:AA::": {
+    "Name": "R90",
+    "Protocolos": ["OSPF", "RIP"],
+    "VLANs": {
+      "VL90": {
+        "Ports": [112, 113],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "192.168.8.90",
+        "SSH": false
+      }
+    }
+  },
+  "91:AA:33:BB::": {
+    "Name": "R91",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL91": {
+        "Ports": [114],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "10.0.30.91",
+        "SSH": true
+      }
+    }
+  },
+  "92:BB:44:CC::": {
+    "Name": "R92",
+    "Protocolos": ["OSPF", "ST"],
+    "VLANs": {
+      "VL92": {
+        "Ports": [115, 116],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.28.92",
+        "SSH": false
+      }
+    }
+  },
+  "93:CC:55:DD::": {
+    "Name": "R93",
+    "Protocolos": ["RIP", "BGP"],
+    "VLANs": {
+      "VL93": {
+        "Ports": [117],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.9.93",
+        "SSH": true
+      }
+    }
+  },
+  "94:DD:66:EE::": {
+    "Name": "R94",
+    "Protocolos": ["OSPF"],
+    "VLANs": {
+      "VL94": {
+        "Ports": [],
+        "Plicies": ["Deny"],
+        "ET": false,
+        "IP": "10.0.31.94",
+        "SSH": false
+      }
+    }
+  },
+  "95:EE:77:FF::": {
+    "Name": "R95",
+    "Protocolos": ["ST", "BGP"],
+    "VLANs": {
+      "VL95": {
+        "Ports": [118, 119],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.29.95",
+        "SSH": true
+      }
+    }
+  },
+  "96:FF:88:11::": {
+    "Name": "R96",
+    "Protocolos": ["RIP"],
+    "VLANs": {
+      "VL96": {
+        "Ports": [120],
+        "Plicies": ["Allow"],
+        "ET": false,
+        "IP": "192.168.10.96",
+        "SSH": false
+      }
+    }
+  },
+  "97:AA:99:22::": {
+    "Name": "R97",
+    "Protocolos": ["OSPF", "ST"],
+    "VLANs": {
+      "VL97": {
+        "Ports": [121, 122],
+        "Plicies": ["Deny"],
+        "ET": true,
+        "IP": "10.0.32.97",
+        "SSH": true
+      }
+    }
+  },
+  "98:BB:AA:33::": {
+    "Name": "R98",
+    "Protocolos": ["BGP"],
+    "VLANs": {
+      "VL98": {
+        "Ports": [123],
+        "Plicies": [],
+        "ET": true,
+        "IP": "172.16.30.98",
+        "SSH": false
+      }
+    }
+  },
+  "99:CC:BB:44::": {
+    "Name": "R99",
+    "Protocolos": ["OSPF", "RIP"],
+    "VLANs": {
+      "VL99": {
+        "Ports": [124, 125],
+        "Plicies": ["Allow"],
+        "ET": true,
+        "IP": "192.168.11.99",
+        "SSH": true
+      }
+    }
+  },
+  "100:DD:CC:55::": {
+    "Name": "R100",
+    "Protocolos": ["ST"],
+    "VLANs": {
+      "VL100": {
+        "Ports": [],
+        "Plicies": [],
+        "ET": false,
+        "IP": "10.0.33.100",
+        "SSH": false
+      }
+    }
+  }
+}
+
+
+
+
